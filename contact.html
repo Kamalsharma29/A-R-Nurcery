@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Ar Rehman Nursery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/components.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <div class="logo">🌿</div>
+                <div class="brand-text">
+                    <h1>Ar Rehman Nursery</h1>
+                    <span class="hindi">अर रहमान नर्सरी</span>
+                </div>
+            </div>
+            
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home / होम</a>
+                <a href="about.html" class="nav-link">About / हमारे बारे में</a>
+                <a href="catalog.html" class="nav-link">Plants / पौधे</a>
+                <a href="blog.html" class="nav-link">Blog / ब्लॉग</a>
+                <a href="contact.html" class="nav-link active">Contact / संपर्क</a>
+            </nav>
+            
+            <div class="nav-actions">
+                <button class="lang-btn">🌐</button>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1 class="page-title">Contact Us</h1>
+            <p class="page-subtitle hindi">हमसे संपर्क करें</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p class="contact-description">
+                        We are here to help you with all your plant needs. Reach out to us for any inquiries or to visit our nursery.
+                        <br><span class="hindi">हम आपके पौधों की सभी जरूरतों में आपकी मदद करने के लिए यहां हैं।</span>
+                    </p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-text">
+                                <h4>Address / <span class="hindi">पता</span></h4>
+                                <p>Ar Rehman Nursery, Saharanpur, Uttar Pradesh, India</p>
+                                <p class="hindi">अर-रहमान नर्सरी, सहारनपुर, उत्तर प्रदेश, भारत</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div class="contact-text">
+                                <h4>Phone / <span class="hindi">फ़ोन</span></h4>
+                                <p>+91-9876543210</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">✉️</div>
+                            <div class="contact-text">
+                                <h4>Email / <span class="hindi">ईमेल</span></h4>
+                                <p>info@ar-rehman-nursery.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">🕒</div>
+                            <div class="contact-text">
+                                <h4>Opening Hours / <span class="hindi">खुलने का समय</span></h4>
+                                <p>8:00 AM – 7:00 PM</p>
+                                <p class="hindi">सुबह 8:00 बजे - शाम 7:00 बजे</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <h3>Send us a Message</h3>
+                        <p class="hindi">हमें संदेश भेजें</p>
+                        
+                        <div class="form-group">
+                            <label for="name">Name / <span class="hindi">नाम</span></label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email / <span class="hindi">ईमेल</span></label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone / <span class="hindi">फ़ोन</span></label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject / <span class="hindi">विषय</span></label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a topic</option>
+                                <option value="plant-inquiry">Plant Inquiry</option>
+                                <option value="bulk-order">Bulk Order</option>
+                                <option value="care-tips">Care Tips</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message / <span class="hindi">संदेश</span></label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Map -->
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110998.42398579979!2d77.40698114335939!3d29.967883900000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ee9c13dee8469%3A0x6c6e268686e42657!2sSaharanpur%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1709210986065!5m2!1sen!2sin"
+                    width="100%" 
+                    height="400" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">🌿</div>
+                    <h3>Ar Rehman Nursery</h3>
+                </div>
+                <div class="footer-links">
+                    <a href="about.html">About Us</a>
+                    <a href="catalog.html">Plants</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Ar Rehman Nursery. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp FAB -->
+    <a href="https://wa.me/919876543210" class="whatsapp-fab" target="_blank">
+        💬
+    </a>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/contact.js"></script>
+</body>
+</html>
